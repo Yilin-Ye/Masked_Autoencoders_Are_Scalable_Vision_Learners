@@ -10,16 +10,30 @@
 3. MAE, a simple-supervised method based on autoencoder, achieves the same accuracy as other supervised algorithms on ImageNet. With MAE pre-training, they can train datahungry models like ViT-Large/-Huge on ImageNet-1K with improved generalization performance. With a vanilla ViT-Huge model, they achieve 87.8% accuracy when finetuned on ImageNet-1K.
 4. MAE is a form of denoising autoencoding but different from the classical DAE(denoising autoencoder) in numerous ways. 
 
+
+### MAE Structure
+![bird](images/bird.PNG)
+
+### Result
+![prediction](images/prediction.PNG)
+
+### Fine Tuning
+![tuning](images/fine_tuning.PNG)
+
+
 ## Discussion Topic 1
 At the dicussion part, the author says: 'simple algorithms that scale well are the core of deep learning.' Does this algorithm really simple and scalable for us?
 
+![resource](images/compute_resource.PNG)
+
+![tpu](images/tpu.PNG)
 ## Discussion Topic 2
 what makes masked autoencoding different between vision and language?
 
 ## Discussion Topic 3
 Why randomly mask token is more accurate than other method?
 
-
+![random](images/random.PNG)
 
 ## Critical Analysis
 
