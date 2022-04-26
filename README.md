@@ -49,4 +49,4 @@ The code has not yet been made availalbe.
 
 ## Video Recording
 
-To Be Added
+https://www.youtube.com/watch?v=cIUtRNhY6Rw
